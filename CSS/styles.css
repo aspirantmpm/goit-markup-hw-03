@@ -25,7 +25,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  }
+}
 
 /* Logo */
 .logo {
@@ -52,11 +52,12 @@ body {
 /* Header*/
 
 .header-container {
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 24px;
-   padding-bottom: 25px;
-   width: 1170px;}
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  width: 1170px;
+}
 
 .link {
   font-weight: 500;
@@ -89,21 +90,23 @@ body {
 
 /* Hero */
 
-.hero {background-color: var(--hero-color);}
+.hero {
+  background-color: var(--hero-color);
+}
 
 .hero-container {
   margin-left: auto;
-   margin-right: auto;
-   padding-top: 200px;
+  margin-right: auto;
+  padding-top: 200px;
   width: 1170px;
-text-align: center;  
+  text-align: center;
   color: var(--main-color);
-  }
+}
 
 .main-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);  
+  line-height: calc(60 / 44);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 0;
@@ -115,7 +118,7 @@ text-align: center;
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);  
+  line-height: calc(30 / 16);
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -124,7 +127,8 @@ text-align: center;
   padding: 4px 30px;
 }
 
- .hero-btn {margin-bottom: 200px;
+.hero-btn {
+  margin-bottom: 200px;
 }
 
 .hero-btn {
@@ -152,6 +156,13 @@ text-align: center;
 }
 
 /* Sections */
+
+.benefits-container {
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 200px; */
+  width: 1170px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -186,6 +197,8 @@ text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--font-color);
+  margin-top: 94px;
+  margin-bottom: 10px;
 }
 
 .benefits-item {
@@ -193,6 +206,8 @@ text-align: center;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-name {
@@ -270,10 +285,9 @@ footer {
 
 /* Header */
 
-.container {margin-left: auto;
-   margin-right: auto;
-   outline: 4px solid blue;
-   width: 1200px;}
-
-
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 4px solid blue;
+  width: 1200px;
+}
