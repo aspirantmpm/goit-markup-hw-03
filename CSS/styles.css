@@ -1,3 +1,9 @@
+/**
+  |============================
+  | Colors and fonts
+  |============================
+*/
+
 :root {
   --main-color: #ffffff;
   --brand-color: #2196f3;
@@ -17,7 +23,9 @@ body {
 
 .list {
   list-style: none;
-}
+  padding: 0;
+  margin: 0;
+  }
 
 /* Logo */
 .logo {
@@ -41,7 +49,15 @@ body {
   color: var(--main-color);
 }
 
-/* Head links*/
+/* Header*/
+
+.header-container {
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 24px;
+   padding-bottom: 25px;
+   width: 1170px;}
+
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -73,30 +89,42 @@ body {
 
 /* Hero */
 
-.hero {
-  background-color: var(--hero-color);
+.hero {background-color: var(--hero-color);}
+
+.hero-container {
+  margin-left: auto;
+   margin-right: auto;
+   padding-top: 200px;
+  width: 1170px;
+text-align: center;  
   color: var(--main-color);
-}
+  }
 
 .main-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
-  text-align: center;
+  line-height: calc(60 / 44);  
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding: 0;
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .btn,
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
-  display: flex;
+  line-height: calc(30 / 16);  
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 4px 30px;
+}
+
+ .hero-btn {margin-bottom: 200px;
 }
 
 .hero-btn {
@@ -232,3 +260,20 @@ footer {
 .footer-contact:focus {
   color: var(--brand-color);
 }
+
+/**
+  |============================
+  | Block model
+  |============================
+*/
+
+
+/* Header */
+
+.container {margin-left: auto;
+   margin-right: auto;
+   outline: 4px solid blue;
+   width: 1200px;}
+
+
+
