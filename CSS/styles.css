@@ -19,7 +19,7 @@
 body {
   background-color: var(--main-color);
   font-family: 'Roboto', sans-serif;
-  width: 1600px;
+  /* width: 1600px; */
 }
 
 .list,
@@ -61,6 +61,8 @@ body {
 .nav {display: flex; margin-left: auto;}
 
 .list-item:not(:last-child) {margin-right: 50px;}
+
+.list-btn-item:not(:last-child) {margin-right: 8px;}
 
 .list-work-item:not(:last-child) {margin-right: 30px;}
 
@@ -180,19 +182,6 @@ body {
   width: 1170px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .our-work {
   margin-left: auto;
   margin-right: auto;
@@ -243,12 +232,55 @@ body {
   margin-bottom: 0;
 }
 
-.projects-container {
+/* Projects */
+
+.portfolio {margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  margin-top: 94px;
+  width: 1170px;}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list.buttons {justify-content: center;
+margin-bottom: 50px;}
+
+
+/* .list.buttons {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
-  margin-bottom: 94px;
   width: 1170px;
+  
+  flex-wrap: wrap;
+  
+}
+
+.list.projects {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  
+} */
+
+/*  {width: 1170px;} */
+ /* margin-top: 94px;
+  margin-bottom: 94px; */
+
+.list-project-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-name {
@@ -267,6 +299,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
+/* .list.project {
+  flex-wrap: wrap; 
+  } */
 
 .projects-title {
   font-weight: 700;
