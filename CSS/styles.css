@@ -19,12 +19,18 @@
 body {
   background-color: var(--main-color);
   font-family: 'Roboto', sans-serif;
+  width: 1600px;
 }
 
-.list {
+.list,
+.footer-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  }
+
+.list {
+  display: flex;
 }
 
 /* Logo */
@@ -35,6 +41,7 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .web {
@@ -51,12 +58,20 @@ body {
 
 /* Header*/
 
+.nav {display: flex; margin-left: auto;}
+
+.list-item:not(:last-child) {margin-right: 50px;}
+
+.list-work-item:not(:last-child) {margin-right: 30px;}
+
 .header-container {
   margin-left: auto;
   margin-right: auto;
   padding-top: 24px;
   padding-bottom: 25px;
   width: 1170px;
+  display: flex;
+  align-items: center;
 }
 
 .link {
@@ -160,7 +175,8 @@ body {
 .benefits-container {
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 200px; */
+  margin-top: 94px;
+  margin-bottom: 94px;
   width: 1170px;
 }
 
@@ -177,9 +193,24 @@ body {
   overflow: hidden;
 }
 
+.our-work {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  width: 1170px;
+}
+
 .team {
   background-color: var(--team-color);
 }
+
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 1170px;}
 
 .section-title {
   font-weight: 700;
@@ -188,6 +219,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--font-color);
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .benefits-title {
@@ -197,7 +230,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--font-color);
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
@@ -208,6 +241,14 @@ body {
   color: var(--text-color);
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.projects-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  width: 1170px;
 }
 
 .team-name {
@@ -248,6 +289,12 @@ footer {
   background-color: var(--hero-color);
 }
 
+.footer-container {margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+padding-top: 60px;
+padding-bottom: 60px;}
+
 .map {
   font-style: normal;
   font-size: 14px;
@@ -275,6 +322,8 @@ footer {
 .footer-contact:focus {
   color: var(--brand-color);
 }
+
+
 
 /**
   |============================

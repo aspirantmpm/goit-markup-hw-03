@@ -22,17 +22,17 @@
     <!-- Head -->
     <header class="header">
       <div class="header-container">
-        <nav class="nav">
-          <a class="logo" href="./index.html"
+        <a class="logo" href="./index.html"
             ><span class="web">Web</span><span class="header-studio">Studio</span></a
           >
-          <ul class="list">
+        <nav>
+            <ul class="list nav">
             <li class="list-item"><a class="link" href="./index.html">Студія</a></li>
             <li class="list-item"><a class="link active" href="./portfolio.html">Портфоліо</a></li>
             <li class="list-item"><a class="link" href="#contacts">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list">
+        <ul class="list nav">
           <li class="list-item">
             <a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -48,7 +48,8 @@
     <main>
       <!-- Section -->
       <section class="section">
-        <h1 class="visually-hidden">Buttons</h1>
+        <div class="projects-container">
+          <h1 class="visually-hidden">Buttons</h1>
         <ul class="list">
           <li class="list-item">
             <button class="btn" type="button" name="all">Усі</button>
@@ -167,15 +168,17 @@
             <p class="projects-item">Додаток</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer id="contacts">
-      <a class="logo" href="./index.html"
+      <div class="footer-container">
+        <a class="logo" href="./index.html"
         ><span class="web">Web</span><span class="footer-studio">Studio</span></a
       >
       <address>
-        <ul class="list">
+        <ul class="footer-list">
           <li class="list-item">
             <a
               class="map"
@@ -193,6 +196,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
