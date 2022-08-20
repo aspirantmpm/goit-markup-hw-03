@@ -163,7 +163,7 @@ body {
 
 .btn {
   background-color: var(--team-color);
-  color: #var(--font-color);
+  color: var(--font-color);
   border: none;
 }
 
