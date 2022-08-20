@@ -65,7 +65,8 @@ body {
 }
 
 .list-work-item {
-  background-color: var(--main-color);}
+  background-color: var(--main-color);
+}
 
 .header-container {
   margin-left: auto;
@@ -245,6 +246,14 @@ body {
   margin-bottom: 10px;
 }
 
+.list-item-benefits {
+  width: 270px;
+}
+
+.list-item-benefits:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-item {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -254,6 +263,7 @@ body {
   margin-top: 0;
   margin-bottom: 30px;
 }
+
 /* Projects */
 
 .portfolio {
@@ -321,7 +331,7 @@ body {
   margin-left: 24px;
   margin-top: 0;
   margin-bottom: 20px;
- }
+}
 
 /* Footer */
 
@@ -344,7 +354,7 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-decoration: none;
-  }
+}
 
 .footer-contact {
   font-style: normal;
@@ -353,7 +363,7 @@ footer {
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
   text-decoration: none;
- }
+}
 
 .map:hover,
 .map:focus {
@@ -365,13 +375,18 @@ footer {
   color: var(--brand-color);
 }
 
-.footer-logo {margin-bottom: 20px;}
+.footer-logo {
+  margin-bottom: 20px;
+}
 
 .footer-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-flex-direction: column;}
+  flex-direction: column;
+}
 
-.footer-list-item:not(:last-child) {margin-bottom: 9px;}
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
