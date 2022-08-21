@@ -35,6 +35,7 @@ body {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /* Logo */
@@ -81,10 +82,10 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
-  padding-left: 215px;
-  padding-right: 215px;
+}
+
+.header-section {
   border-bottom: 1px solid var(--border-color);
-  width: 1600px;
 }
 
 .link {
@@ -118,13 +119,14 @@ body {
 
 /* Hero */
 
-.hero {
-  background-color: var(--hero-color);
+.hero-bgc {
+  }
+
+.hero {background-color: var(--hero-color);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
   color: var(--main-color);
-  width: 1600px;
 }
 
 .main-title {
@@ -182,12 +184,11 @@ body {
   margin-left: 15px;
 }
 
+.our-work {padding-top: 0;}
+
 .our-team {
   background-color: var(--team-color);
   margin-bottom: 0;
-  /* width: 1600px; */
-  /* display: inline-flex; */
-  /* text-align: center; */
 }
 
 .section-title {
@@ -330,10 +331,8 @@ body {
   background-color: var(--hero-color);
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 
 .map {
