@@ -8,6 +8,7 @@
   --team-color: #f5f4fa;
   --btn-hover-color: #188ce8;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --border-color: #ECECEC;
 }
 
 body {
@@ -32,7 +33,12 @@ body {
   width: 1200px;
 }
 
+.section {
+  padding-bottom: 94px;
+}
+
 /* Logo */
+
 .logo {
   text-decoration: none;
   font-family: 'Raleway';
@@ -66,8 +72,6 @@ body {
   margin-right: 50px;
 }
 
-
-
 .list-work-item {
   background-color: var(--main-color);
 }
@@ -77,7 +81,11 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
-  }
+  padding-left: 215px;
+  padding-right: 215px;
+  border-bottom: 1px solid var(--border-color);
+  width: 1600px;
+}
 
 .link {
   font-weight: 500;
@@ -112,10 +120,11 @@ body {
 
 .hero {
   background-color: var(--hero-color);
-  padding-top: 86px;
-  padding-bottom: 80px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   color: var(--main-color);
+  width: 1600px;
 }
 
 .main-title {
@@ -168,15 +177,6 @@ body {
 
 /* Sections */
 
-.benefits {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  }
-
-.our-work {
-  margin-bottom: 94px;
-  }
-
 .list-work-item {
   margin-right: 15px;
   margin-left: 15px;
@@ -184,10 +184,11 @@ body {
 
 .our-team {
   background-color: var(--team-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-bottom: 0;
-  }
+  /* width: 1600px; */
+  /* display: inline-flex; */
+  /* text-align: center; */
+}
 
 .section-title {
   font-weight: 700;
@@ -232,7 +233,7 @@ body {
 }
 
 .list-item-benefits {
-  width: 270px; 
+  width: 270px;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -250,9 +251,8 @@ body {
 /* Projects */
 
 .portfolio {
-  margin-bottom: 94px;
-  margin-top: 94px;
-  }
+  padding-top: 94px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -292,6 +292,10 @@ body {
   margin-right: 15px;
 }
 
+.img {
+  display: block;
+}
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
@@ -299,7 +303,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--font-color);
   margin-left: 24px;
-  margin-top: 20px;
+  padding-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
 }
 
@@ -313,18 +318,22 @@ body {
   margin-bottom: 20px;
 }
 
-/* Footer */
-
-footer {
-  background-color: var(--hero-color);
+.card-title {
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
 }
 
+/* Footer */
+
 .footer {
+  background-color: var(--hero-color);
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 215px;
 }
 
 .map {
