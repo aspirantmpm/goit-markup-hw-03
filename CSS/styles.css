@@ -119,9 +119,6 @@ body {
 
 /* Hero */
 
-.hero-bgc {
-  }
-
 .hero {background-color: var(--hero-color);
   padding-top: 200px;
   padding-bottom: 200px;
